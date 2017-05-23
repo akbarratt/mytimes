@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px navy solid;
+}
+
+div.logo {
+  display: flex;
+  align-items: center;
+}
+
+span.logotext {
+  color: mediumaquamarine;
+  margin-left: 20px;
+}
+
+a {
+  color: navy;
+  margin-left: 20px;
+}
