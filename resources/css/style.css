@@ -87,6 +87,26 @@ span.bite {
   padding: 10px;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+span.footlogo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+
+/*images*/
+
 .imgbox {
   display: flex;
   justify-content: center;
