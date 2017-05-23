@@ -23,3 +23,35 @@ a {
   color: navy;
   margin-left: 20px;
 }
+
+div.content {
+  display: flex;
+  border: solid black 1px;
+}
+
+.column.large {
+  display: flex;
+  flex-wrap: wrap;
+  width: 630px;
+  border: solid red 1px;
+}
+
+div.main {
+  width: 100%;
+}
+
+div.second {
+  width: 50%;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+  border: solid blue 1px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+  border> solid green 1px;
+}
