@@ -19,7 +19,7 @@ span.logotext {
   margin-left: 20px;
 }
 
-a {
+header a {
   color: navy;
   margin-left: 20px;
 }
@@ -91,10 +91,31 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
+  width: 100%;
+  height: 325px;
+}
+
+footer nav {
+  display: inline-block;
+  padding: 25px 0;
+}
+
+footer nav a {
+  color: black;
+  padding: 10px;
+}
+
+.footlogo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
 }
 
 span.footlogo {
