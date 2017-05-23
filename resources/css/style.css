@@ -1,3 +1,5 @@
+/* header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -29,6 +31,8 @@ h3 {
   font-weight: bold;
   text-align: center;
 }
+
+/*main content*/
 
 div.content {
   display: flex;
@@ -82,6 +86,8 @@ span.bite {
   margin: 0;
   padding: 10px;
 }
+
+/*footer*/
 
 footer {
   display: flex;
